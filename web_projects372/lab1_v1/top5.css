@@ -4,20 +4,21 @@ body {
     font-family: Arial, sans-serif;
 }
 
-
 h1 {
     font-family: Georgia, serif;
 }
-
 
 ol {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-
-img {
+.artist {
     border: 1px solid red;
-    padding: 5px;
-    max-width: 100%;
-    display: block;
+}
+
+.spotlight {
+    padding: 10px;
+    border: 3px dotted yellow;
+    width: 300px;
+    text-align: center;
 }
