@@ -1,0 +1,13 @@
+h1{
+    color: rgb(0, 34, 128); }
+p{
+    color:rgb(255, 0, 0); 
+    background-color: antiquewhite;
+    border-color:black;
+    box-shadow: 5px 5px 10px #888888;
+}
+body{
+    background-color: antiquewhite;
+    text-align: center; 
+    list-style-position: inside;
+}
