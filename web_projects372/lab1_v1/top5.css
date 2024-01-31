@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+h1 {
+    font-family: Georgia, serif;
+}
+
+
+ol {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+img {
+    border: 1px solid red;
+    padding: 5px;
+    max-width: 100%;
+    display: block;
+}
