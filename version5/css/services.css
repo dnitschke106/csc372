@@ -143,16 +143,16 @@ footer {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    border: 2px solid #3498db;
+    border: 2px solid #7e9163;
     border-radius: 5px;
-    color: #3498db;
+    color: #7e9163;
     background-color: #ffffff;
     transition: background-color 0.3s, color 0.3s;
 }
 
 /* Hover effect */
 .container button:hover {
-    background-color: #3498db;
+    background-color: #7e9163;
     color: #ffffff;
 }
 
