@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<attributes>
+    <map>
+        <title>Interactive Map</title>
+        <about>The interactive map page is designed to be a tool used by Greek Connect
+         users. Within the map users can view all active chapters, with their name, location, 
+         and basic information. If an event is scheduled users can also pin that location for 
+         other members to view and possibly register. </about>
+    </map>
+</attributes>

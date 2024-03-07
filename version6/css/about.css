@@ -1,0 +1,219 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f3efc3; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%; 
+    overflow-x: hidden; 
+}
+
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+/*new color for about names */ 
+h3{
+    color:#62724d; 
+    -webkit-text-stroke: 1px black;
+}
+
+/* Styling for the slideshow */
+.mySlides {
+    display: none; /* Hide slideshow images by default */
+}
+  
+/* Styling for the slideshow container */
+.slideshow-container {
+    max-width: 1200px; /* Set maximum width for the slideshow container */
+    margin: auto; /* Center the slideshow horizontally */
+}
+  
+#subtitle{
+    font-weight: bold; 
+    position: relative;
+    animation: waveMotion 4s infinite;
+}
+
+@keyframes waveMotion {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Fading animation for the slideshow */
+.fade {
+    animation-name: fade;
+    animation-duration: 3.0s; /* Duration of the fading animation */
+    max-width: 100%; /* Ensure the image fits within its container */
+}
+  
+@keyframes fade {
+    from {opacity: .4}  /* Initial opacity for the fading animation */
+    to {opacity: 1} /* Final opacity for the fading animation */
+}
+
+.container {  
+    align-items: center;
+    justify-content: center;
+}
+
+/* About section left column for image */
+.left-col{
+    float: left;
+    width: 50%;
+    margin-top: 50px; 
+}
+
+/* About section right column for description */
+.right-col{
+    float: left;
+    width: 50%; 
+    margin-top: 50px; 
+}
+
+/* For text that fades in when scrolled upon */
+.fade-in-text {
+    opacity: 0;
+    transition: opacity 1.6s ease-in-out;
+}
+
+.img{
+    border: 2px solid black; 
+    box-shadow: 0px 5px 10px; 
+    border-radius: 5%; 
+    margin-bottom: 60px; 
+}
+
+#brandName{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px; 
+    font-size: 40px; 
+    text-shadow: 0 0 10px gold; /* Initial glow effect */
+    animation: glowAnimation 3s infinite;
+}
+
+@keyframes glowAnimation {
+    0%, 100% {
+        text-shadow: 0 0 10px gold; /* Start and end with the initial glow effect */
+    }
+    50% {
+        text-shadow: 0 0 20px gold; /* Peak brightness in the middle of the animation */
+    }
+}
+
+header{
+    background-color: #7e9163;
+    color: white;
+    text-align: center;         
+    padding-bottom: 1em;
+    text-shadow: 1px 1px black; 
+    font-size: 15px; 
+}
+
+/* Navigation bar styling */
+.navbar{
+    background-color: #62724d;
+    padding: 1em;
+    text-align: center; 
+    border-width: thick; 
+    box-shadow: 0px 5px 10px; 
+    text-shadow: 1px 1px black; 
+    font-size: 20px; 
+    width: 100%; 
+}
+
+/* Navigation bar button styling */ 
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0 1em;
+    transition: background-color 0.3s ease;
+    border: 1px solid white;
+    border-radius: 8%; 
+    position: relative; 
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+/* Navigation bar button hover styling */
+.navbar a:hover {
+    background-color: #f3efc3;
+    color: #7e9163; 
+}
+
+/* Add a class to make the navbar sticky */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+main {
+    padding: 2em;
+    text-align: center; 
+    font-size: 30px;
+    padding-bottom: 100px; 
+}
+
+footer {
+    background-color: #7e9163;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 750px; 
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        font-size: 30px; 
+    }
+
+    .navbar a{
+        text-align: center; 
+        display: grid; 
+        margin: auto; 
+    }
+    
+    #img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .left-col{
+        float: left;
+        width: 100%;
+    }
+    
+    .right-col{
+        float: left;
+        width: 100%; 
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    .left-col{
+        float: left;
+        width: 100%;
+    }
+    
+    .right-col{
+        float: left;
+        width: 100%; 
+    }
+
+    footer{
+        margin-top: 1100px; 
+    }
+
+    main{
+        font-size: 25px; 
+    }
+}
