@@ -50,7 +50,7 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
-    // Define a simple object representing a laptop
+    // Simple object representing attributes
     var attributes = {
         feed: "Social Media Feed Specific to your Chapter",
         frats: "All Publically Listed Fraternities",
@@ -60,7 +60,7 @@ $(document).ready(function() {
 
     var productInfoDiv = $("#productInfo");
 
-    // Output brand and model
+    // Output attributes
     productInfoDiv.append("<p><strong>Platform Attributes:</strong></p>");
     productInfoDiv.append("<p>" + attributes.frats + "</p>");
     productInfoDiv.append("<p>" + attributes.feed + "</p>");
